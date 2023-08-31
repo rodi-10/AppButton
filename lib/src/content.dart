@@ -24,7 +24,7 @@ class AppButton extends StatelessWidget {
             onClick!();
           }
         },
-        icon: Icon(btnIcon),
-        label: Text(btnLbl));
+        icon: Icon(btnIcon,color: AppColors.kWhite,),
+        label: Text(btnLbl,style: const TextStyle(color: AppColors.kWhite),));
   }
 }
